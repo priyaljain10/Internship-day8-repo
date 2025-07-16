@@ -1,0 +1,91 @@
+body {
+    background-color:antiquewhite;
+    font-family: 'Times New Roman', Times, serif;
+    display: grid;
+    place-items: center;
+    padding-top: 30px;
+    justify-content: center;
+}
+
+.container {
+    background-color: azure;
+    padding:15px;
+    border-radius: 5px;
+    width: 450px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    display: grid;
+    grid-template-rows: auto;
+    gap: 20px;
+}
+
+h2{
+    text-align: center;
+    margin: 0;
+}
+
+form {
+    display: grid;
+    gap: 15px;
+}
+
+.details{
+    display: grid;
+    gap: 5px;
+}
+
+label {
+    font-weight: bold;
+}
+
+input{
+  padding: 10px;
+  border: 1px solid aliceblue;
+  border-radius: 6px;
+  transition: 0.3s;
+}
+
+input:hover{
+    background-color: antiquewhite;
+}
+
+input:focus {
+    border-color:dimgray;
+    outline:none;
+}
+
+.error {
+    color:red;
+    font-size: 10px;
+    height: 10px;
+}
+
+#strength {
+    font-size: 10px;
+    margin-top: 5px;
+}
+
+.buttons {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 10px;
+}
+
+button {
+  padding: 10px 0;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  background-color:burlywood;
+  color: white;
+  transition: 0.3s;
+}
+
+button:hover {
+    background-color:green;
+}
+
+#message {
+    text-align: center;
+    font-weight: bold;
+    color:darkblue;
+}
