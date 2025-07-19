@@ -84,8 +84,10 @@ button:hover {
     background-color:green;
 }
 
-#message {
+#successMessage {
     text-align: center;
     font-weight: bold;
-    color:darkblue;
+    color: green;
+    margin-top: 20px;
+    font-size: larger;
 }
